@@ -192,7 +192,7 @@
 
 .content-table th,
 .content-table td {
-  padding: 1rem 4.5rem;
+  padding: 1rem 3.5rem;
 }
 
 .content-table tbody tr {
@@ -221,9 +221,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-items: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
