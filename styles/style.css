@@ -96,6 +96,21 @@
           transform: translateY(-10px);
 }
 
+.card-body input {
+  width: 50%;
+  padding: 0.1rem;
+  margin: 0.3rem;
+  border-radius: 1rem;
+  border: 1px solid #009879;
+  text-align: center;
+  font-size: 1em;
+  font-weight: 300;
+}
+
+.card-body :focus {
+  outline: #7D65F6;
+}
+
 .options {
   margin: 3rem 3rem 0rem 3rem;
   display: -webkit-box;
@@ -221,7 +236,9 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  justify-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -286,6 +303,76 @@
 }
 
 .groups .add:hover {
+  background-color: white;
+  color: #009879;
+  -webkit-transition: 300ms;
+  transition: 300ms;
+}
+
+.grid-box {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 1fr;
+      grid-template-columns: 2fr 1fr;
+}
+
+.grid-box .right {
+  background: white;
+  height: 100vh;
+}
+
+.grid-box .right .checkout {
+  background: #F9F9FB;
+  padding: 1rem;
+  margin: 0rem;
+  height: 100vh;
+}
+
+.grid-box .right .checkout .rows {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 1rem;
+}
+
+.grid-box .right .checkout .rows h4 {
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.grid-box .right .checkout .product-info {
+  padding: 1rem;
+}
+
+.add-cart {
+  width: 8rem;
+  border: none;
+  background-color: #58B354;
+  color: #E4EAF8;
+  padding: 0.6rem;
+  border-radius: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+.add-cart i {
+  margin-left: 0.5rem;
+}
+
+.add-cart:hover {
   background-color: white;
   color: #009879;
   -webkit-transition: 300ms;
