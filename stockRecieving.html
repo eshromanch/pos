@@ -1,3 +1,4 @@
+<!-- new -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,17 +21,20 @@
     </header>
     <div class="groups">
         <form action="">
-            <input type="text" placeholder="Product name">
-            <!-- changed -->
+            <select id="options" name="options">
+                <option value="name">Product</option>
+              <option value="name">Name</option>
+              <option value="invoice number">name 2</option>
+              
+            </select>
             <select id="options" name="options">
                 <option value="name">Catagories</option>
               <option value="name">Name</option>
               <option value="invoice number">name 2</option>
               
             </select>
-            <!-- changed -->
-            <input type="text" placeholder="Purchase price:">
-            <input type="text" placeholder="Selling price:">
+            <input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode="">
+    
         </form>
         <button class="add">Add</button>
     </div>
