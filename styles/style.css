@@ -379,6 +379,43 @@
   transition: 300ms;
 }
 
+.bill {
+  background: #F9F9FB;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.bill .checkout {
+  background: white;
+  width: 100vh;
+  padding: 1rem;
+  margin: 0rem;
+  height: 100vh;
+}
+
+.bill .checkout .rows {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 1rem;
+}
+
+.bill .checkout .rows h4 {
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.bill .checkout .product-info {
+  padding: 1rem;
+}
+
 * {
   padding: 0;
   margin: 0;
